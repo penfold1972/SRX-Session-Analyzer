@@ -92,7 +92,7 @@ try:
 	try:
 		portnumx = open("port_list.txt", "r")
 		portnums = portnumx.read()
-                portnum = eval(portnums)
+		portnum = eval(portnums)
 	except:pass #If port_list.txt isn't present, oh well..
 except:
 	print("No session file found Please add one with:  -f <filename.\n \n \n")
